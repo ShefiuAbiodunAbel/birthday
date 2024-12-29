@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5000px;
+}
+
+.content{
+    margin-top: 30px;
+    padding: 50px 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+.content .abtme{
+    width: 1000px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content h1{
+    color: black;
+}
+
+.content .imgGalary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: center;
+}
+.content .imgGalary figure img{
+    width: 250px;
+    height: 250px;
+}
+.content h1{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.content h1 span{
+    color: brown;
+    font-size: 35px;
+}
+.content h2{
+    color: gray;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+
+
+
+.content figcaption{
+    border: 2px solid black;
+    width: 250px;
+    overflow: hidden;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.content figcaption figure{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+.content figcaption img{
+    width: 230px;
+    height: 210px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.content figcaption img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* media query */
+
+@media(max-width: 500px){
+    .content{
+        flex-direction: column;
+    }
+    .content .abtme h2{
+        font-size: 18px;
+        color: black;
+    }
+    .content .abtme{
+        width: 500px;
+        padding: 50px;
+        margin-top: 250px;
+        text-align: center;
+        color: white;
+    }
+    .content .imgGalary figcaption{
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
